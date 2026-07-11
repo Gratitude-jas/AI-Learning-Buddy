@@ -4,7 +4,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyB3dZuK7o3e5jI8naL-Rl9ryC56STHDfOg")
 model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(page_title="AI Learning Buddy Ms Jas - Code Navigator", page_icon="🎓🎓")
-st.title("🎓🎓 AI Learning Buddy Ms Jas - Code Navigator")
+st.title("🎓 AI Learning Buddy Ms Jas - Code Navigator")
 topic = st.text_input("Enter a Topic")
 option = st.selectbox(
 "Choose Activity",
